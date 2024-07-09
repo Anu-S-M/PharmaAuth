@@ -1,0 +1,41 @@
+Introduction
+
+The users in need of a car can rent cars for a few days at a minimal amount rather than buying a new car. It is also important for the users that already have a car, they can also rent any vehicle for a day or so. This system not only will help the people in need of a car as mentioned above but also the car dealers or sellers who can give their cars or vehicles on a rental basis and earn a lot out of it.
+The car rental system not only helps people who are in need, but it also helps car dealers and car sellers by paying them the proper amount.
+To book an appointment, the user has to enter the owner’s name, age, gender, location, entry time, and phone number. The remaining feature is about updating and deleting records. Simply by entering the owner’s name, the user can edit and update the details. The design is so simple that the user won’t find any difficulties while working on it.
+This project is designed to be used by Car Rental Company specializing in renting cars to customers. It is an online system through which customers can view available cars and book cars. The user can search for cars easily and book. For bookings, the user has to provide information such as the type and number of cars. All car details are provided and it also includes Car’s features and Overview It’s easy to operate and understand by users. This site makes its customers easy for car rentals. The design is pretty simple and the user won’t find it difficult to understand, use and navigate.
+
+Reason for the Project
+➢ Enhance Business Processes: To be able to use internet technology to project the rental company to the global world instead of limiting their services to their local domain alone, thus increasing their return on investment (ROI).
+7
+➢ Online Car Reservation: A tool through which customers can Book available cars online before their expected pick-up date or time
+
+Problem statement
+A car rental is a car that can be used temporarily for a fee during a specified period. Getting a rental car helps people get around despite the fact they do not have access to their car or don't own a car at all. The individual who needs a car must contact a rental car company and contract out for a car.
+➢The Manual car rental system provides services only during office hours. So, customers have limited time to make any transactions or reservations for the cars. The existence of online car rental systems nowadays has overcome the limitation of business operation hours.
+
+Project prerequisites:
+For the execution of our project online car rental system, we must know a few programming languages. Here we are using Python as our programming language.
+Aims & Objective:
+To produce a web-based system that allows the customer to register and Book a car online and for the company to effectively manage its car rental business.
+
+Online car rental system:
+➢How Car Rental Services Work
+A car rental is a car that can be used temporarily for some time for a fee. Renting a car assists people to get around even when they do not have access to their car or don't own a car at all. The individual who wants to rent a car must first contact the car rental company for the desired car. This can be done online. At this point, this person has to supply some information such as; dates of rental, type of car, fuel type, etc. After these details are worked out, the individual renting the car must present a valid Identification card (Aadhar Card, Passport) during the handling of the car. Most companies throughout the industry make a profit based on the type of cars that are rented. The rental system provides a car of every type. And customers are free to choose any car of their choice based on their purpose and availability of such car at the time of reservation.
+
+
+Benefits of Online Car Rental Services
+1. This online car rental solution is fully functional and flexible.
+2. It is very easy to use.
+3. It saves a lot of time, money, and labor.
+4. Eco-friendly: The monitoring of the car activity and the overall business becomes easy and includes the least paperwork.
+5. The software acts as an office that is open 24/7. 6. It increases the efficiency of the management in offering quality services to the customer.
+
+Concepts used in the code
+Classes: These are the templates for creating objects. They contain variables and functions which define the class objects
+Modules: Importing a module enables the usage of the module’s functions and variables in another program
+Dictionary: Dictionaries used to store data values in key and value pairs
+Eg: Toyota:1500
+Pandas: This particular library is used here because for handling missing data and its mutable nature
+Random: This is used to generate random numbers and print random values for a list or string
+And many more

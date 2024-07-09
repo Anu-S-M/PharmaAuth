@@ -1,0 +1,267 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Set purple background for the entire website */
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #8a2be2;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+}
+
+/* Center-align the navigation bar and add space on both sides */
+.navigation {
+  background-size: 400% 400%;
+  background-image: linear-gradient(-45deg, #ff5959, #ff4040, #ff0d6e, #ff8033, #d74177);
+  border-radius: 40px;
+  box-shadow: 3px 3px 20px #ff3352;
+  text-align: center;
+  padding: 20px;
+  max-width: 1200px; /* Set a maximum width for the navigation bar */
+  margin: 0 auto; /* Center-align the navigation bar horizontally */
+}
+
+/* Style the navigation links */
+ul.nav-type {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+ul.nav-type li {
+  margin: 0 20px; /* Adjust the margin to add space between buttons */
+}
+
+ul.nav-type li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: verdana;
+  font-weight: lighter;
+  font-size: 24px;
+  letter-spacing: 1px;
+  opacity: 0.9;
+}
+
+/* Your existing CSS styles... */
+
+/* Center-align and add space on both sides to the content section */
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.left-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.left-content h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #333;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.left-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #666;
+}
+
+.right-content img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Your existing CSS styles... */
+
+/* Purple background for the entire website */
+
+/* Your existing CSS styles... */
+
+/* Style for the skills section */
+/* Center-align the skills section container */
+.skills-container {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+/* Style the individual skill cards */
+.skill {
+  background-color: #e0bad7;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  display: inline-block;
+}
+
+/* Center-align the text inside the cards */
+.skill h3 {
+  margin: 10px 0;
+}
+
+/* Adjust other styles for the cards as needed */
+
+/* Your existing CSS styles... */
+
+/* Your existing CSS styles... */
+
+/* Your existing CSS styles... */
+.skill:hover {
+    transform: scale(1.05); /* Enlarge on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Enhanced box shadow on hover */
+}
+/* Style for the Interests section */
+.container {
+    min-height: 100vh; /* Ensure a minimum height of the viewport height */
+}
+
+.container {
+    height: 500px; /* Set a fixed height */
+    overflow-y: auto; /* Add vertical scrollbar if content overflows */
+}
+
+.interests {
+    padding: 60px 0;
+    background-image: url('your-background-image.jpg'); /* Replace with your background image URL */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+}
+
+.interests h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5); /* Text shadow for title */
+}
+
+.interests-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Wrap interests into multiple rows if needed */
+}
+
+.interest {
+    flex: 1;
+    max-width: 300px;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.interest i {
+    font-size: 48px;
+    color: #e0bad7; /* Icon color */
+}
+
+.interest h3 {
+    font-size: 24px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.interest p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Hover effect */
+.interest:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+}
+@font-face {
+    font-family: 'CustomFont';
+    src: url('path/to/font.woff2') format('woff2'),
+         url('path/to/font.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+/* Change font color for a specific element with class "section-title" */
+.section-title {
+    color: black;
+}
+
+/* Change font color for links */
+p {
+    
+    color: black;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+/* Style the "Let's Connect" section */
+.connect {
+    text-align: center;
+    padding: 30px;
+    background-color: #f0f0f0; /* Add your preferred background color */
+}
+
+/* Style the heading */
+.connect h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333; /* Heading text color */
+    margin-bottom: 20px;
+}
+
+/* Increase the size of Font Awesome icons */
+
+/* Increase the size of Font Awesome icons */
+/* CSS animation for Font Awesome icons */
+.fa {
+    font-size: 3rem; /* Adjust the size as needed */
+    margin: 10px; /* Space between icons */
+    color: #333; /* Icon color */
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out; /* Add a transform transition */
+}
+
+/* Scale icons on hover */
+.fa:hover {
+    transform: scale(1.2); /* Increase the size on hover */
+}
+
+
+/* Style the copyright text */
+.copyright-text {
+    font-size: 14px;
+    color: #666; /* Text color */
+    margin-top: 20px;
+}
+
+/* Center-align the copyright text */
+.text-center {
+    text-align: center;
+}
+
