@@ -43,9 +43,9 @@ function Home() {
                     <button onClick={redirect_to_supply} className="btn btn-primary">Control Supply Chain</button>
                 </div>
                 <div className="section" onClick={redirect_to_track}>
-                    <h2 className="section-title">Track the Medicine and View Details</h2>
+                    <h2 className="section-title">Verification Page</h2>
                   
-                    <button onClick={redirect_to_track} className="btn btn-primary">Track Medicine</button>
+                    <button onClick={redirect_to_track} className="btn btn-primary">Verify</button>
                 </div>
             
         
